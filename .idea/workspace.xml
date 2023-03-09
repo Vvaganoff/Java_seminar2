@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdea549-1b07-4bd6-8d49-1dc58d847761" name="Changes" comment="Добавлено решение суммы и разности векторов">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex1.java" afterDir="false" />
+    <list default="true" id="bbdea549-1b07-4bd6-8d49-1dc58d847761" name="Changes" comment="Добавлено решение задания №1 сумма простых элементов последовательности">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +62,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678356620948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлено решение задания №1 сумма простых элементов последовательности">
+      <created>1678359969003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678359969003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлено решение суммы и разности векторов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено решение суммы и разности векторов" />
+    <MESSAGE value="Добавлено решение задания №1 сумма простых элементов последовательности" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено решение задания №1 сумма простых элементов последовательности" />
   </component>
 </project>

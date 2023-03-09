@@ -7,28 +7,26 @@ public class Ex2 {
         String str = scanner.nextLine();
         String[] strArray = str.split(" ");
         int[] array = new int[strArray.length];
-        for (int i = 0; i < array.length; i++){
+        boolean isAscending = true;
+        for (int i = 0; i < array.length; i++) {
             array[i] = Integer.parseInt(strArray[i]);
-        }
-        System.out.println(Sequence(array));
-
-    }
-    public static String Sequence(int[] array)
-    {
-
-        if (array[0] == array[1])
-        {
-            return "Нет последовательности";
-        }
-        boolean isAscending = array[0] < array[1];
-        for (int i = 2; i < array.length; i++)
-        {
-            if ((array[i - 1] >= array[i] && isAscending) ||
-                    (array[i - 1] <= array[i] && !isAscending))
-            {
-                return "Нет последовательности";
+            if (i > 0) {
+                if (array[i - 1] < array[i] && isAscending) {
+                    isAscending = true;
+                } else {
+                    isAscending = false;
+                }
             }
         }
-        return (isAscending ? "Восходящая" : "Нисходящая");
+        if (isAscending) {
+            System.out.println("Последовательность восходящая.");
+        }
+        else {
+            System.out.println("Последовательность не восходящая.");
+        }
+
+        }
+
     }
-}
+
+
